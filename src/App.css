@@ -10,21 +10,44 @@
   max-width: 15rem;
   justify-content: space-between;
   align-items: center;
-  height: 12rem;
 }
 
-.container input {
-  border: none;
-  border-radius: 1rem;
-  background: #add;
-  height: 3rem;
-  font-size: 1.5rem;
+.field {
+  display: flex;
+  justify-content: space-between;
   width: 100%;
-  text-align: center;
-  outline: none;
+  align-items: center;
+  background: #add;
+  border-radius: 0.25rem;
+  margin: 0.5rem auto;
+}
+
+.field .buttons {
+  display: flex;
+}
+
+.field .buttons button {
+  background: rgb(0 0 0 / 33%);
+  border: none;
+  margin: 0.25rem 0.25rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.field .buttons button:active {
+  background: rgb(0 0 0 / 50%);
+}
+
+.field .buttons button img {
+  height: 1rem;
 }
 
 .display {
+  margin-top: 1rem;
   background: #ace;
   width: 100%;
   text-align: center;

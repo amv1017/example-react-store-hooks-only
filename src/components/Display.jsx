@@ -8,5 +8,6 @@ export default function Display() {
     <h2>Display</h2>
     <p>Height: {state.height}</p>
     <p>Width: {state.width}</p>
+    <p>Square: {(state.width > 0 && state.height > 0) ? state.height * state.width : ''}</p>
   </div>
 }
