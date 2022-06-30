@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  font-family: 'Segoe UI';
+}
+
+.container {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 15rem;
+  justify-content: space-between;
+  align-items: center;
+  height: 12rem;
+}
+
+.container input {
+  border: none;
+  border-radius: 1rem;
+  background: #add;
+  height: 3rem;
+  font-size: 1.5rem;
+  width: 100%;
+  text-align: center;
+  outline: none;
+}
+
+.display {
+  background: #ace;
+  width: 100%;
+  text-align: center;
+  border-radius: 1rem;
+  white-space: nowrap;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
